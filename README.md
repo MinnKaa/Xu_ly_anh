@@ -102,8 +102,13 @@ Bao gồm 20 lớp vật thể:
 ## 6. 🖥️ Giao diện
 
 <div align="center">
-    <img width="80%" src="static/result.jpg" />
-    <p><i>Kết quả nhận diện vật thể</i></p>
+    <img width="80%" src="static/anh1.png" />
+    <p><i>Kết quả nhận diện vật thể bằng ảnh</i></p>
+</div>
+
+<div align="center">
+    <img width="80%" src="static/anh2.png" />
+    <p><i>Kết quả nhận diện vật thể bằng video</i></p>
 </div>
 
 ---
@@ -119,6 +124,20 @@ Bao gồm 20 lớp vật thể:
 
 ## 8. ⚡ Cài đặt
 
-### 🔹 Clone project
+### Clone project
+
 ```bash
 git clone https://github.com/username/your-repo.git
+```
+
+### Cài đặt thư viện
+
+```bash
+pip install ultralytics flask opencv-python
+```
+
+### Chạy hệ thống
+
+```bash
+python app.py
+```
